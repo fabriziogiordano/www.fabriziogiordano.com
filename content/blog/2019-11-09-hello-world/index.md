@@ -1,7 +1,7 @@
 ---
 title: Hello World
 date: "2019-11-09"
-description: "Hello World"
+description: "This is a short description that will be seen in there"
 ---
 
 First post
