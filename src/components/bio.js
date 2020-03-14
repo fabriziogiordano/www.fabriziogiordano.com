@@ -23,7 +23,10 @@ const Bio = () => {
       }
       site {
         siteMetadata {
-          author
+          author {
+            name
+            summary
+          }
           social {
             twitter
           }
@@ -42,7 +45,7 @@ const Bio = () => {
     >
       <Image
         fixed={data.avatar.childImageSharp.fixed}
-        alt={author}
+        alt={author.name}
         style={{
           marginRight: rhythm(1 / 2),
           marginBottom: 0,
@@ -54,10 +57,10 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author}</strong> who lives and works in New York City building useful things.
+        Written by <strong>{author.name}</strong> {author.summary}
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow me on Twitter
+          You should follow him on Twitter
         </a>
       </p>
     </div>

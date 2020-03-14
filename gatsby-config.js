@@ -1,7 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Fabrizio Giordano`,
-    author: `Fabrizio Giordano`,
+    title: `Fabrizio Giordano Blog`,
+    author: {
+      name: `Fabrizio Giordano`,
+      summary: `who lives and works in New York building useful things.`,
+    },
     description: `My thoughts`,
     siteUrl: `https://www.fabriziogiordano.com/`,
     social: {
