@@ -5,7 +5,7 @@ excerpt: From Product to Wireframe
 date: "2017-04-15"
 ---
 
-![Storyboards](/assets/images/posts/Storyboard.png)
+![Storyboards](/Storyboard.png)
 
 Wireframe goal should be to focus on the “why” of the product. The design and UX should focus on the “how”.
 
@@ -14,7 +14,7 @@ Recently I was planning to clean up the UX and add some new features to an old m
 
 I started by taking some screenshots of the current app and then importing them in [Sketch](https://twitter.com/sketchapp).
 
-![BikePlus App Screenshot](/assets/images/posts/bike_plus_app_screenshot.png)
+![BikePlus App Screenshot](/bike_plus_app_screenshot.png)
 
 After few iterations and new artboards and I realized I needed add phone frame around those to give a little bit more perspective.
 
@@ -28,7 +28,7 @@ I opted for a simple script.
 
 The script had to combine the artboard and a phone case:
 
-![Combine the phone case with an artboard](/assets/images/posts/wireframe_2_images.png)
+![Combine the phone case with an artboard](/wireframe_2_images.png)
 
 I wrote a quick script which magically handled the work:
 
@@ -37,7 +37,7 @@ I wrote a quick script which magically handled the work:
 I just had to export the artboards and run a script.
 All artboards were stored in *./composite* folder and wrapped in a nice phone frame.
 
-![Wireframe with Colors](/assets/images/posts/wireframe_colors.png)
+![Wireframe with Colors](/wireframe_colors.png)
 
 The colors were distracting. So I applied a filter to the artboards to remove the colors.
 
@@ -46,11 +46,11 @@ _convert_ has a nice _grayscale_ filter out of the box. I just had to add these 
 <script src="https://gist.github.com/fabriziogiordano/faa07708099efbe678e3.js"></script>
 
 Here the final result:
-![Wireframe with Colors](/assets/images/posts/wireframe_gray.png)
+![Wireframe with Colors](/wireframe_gray.png)
 
 I can keep working in Sketch and import these new images in a presentation or on storyboard like this one:
 
-![Storyboards](/assets/images/posts/Storyboard.png)
+![Storyboards](/Storyboard.png)
 
 See you next time.
 
