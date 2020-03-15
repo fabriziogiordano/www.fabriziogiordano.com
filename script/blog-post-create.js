@@ -1,23 +1,19 @@
-require("colors");
 const fs = require("fs");
 const inquirer = require("inquirer");
-const argv = require("yargs");
 
 (async () => {
   try {
-    // Request a title
-    // Short description
-    // Date (by default today date)
+    // Request a title, descriptionm, date (by default today date)
     const post = await inquirer.prompt([
       {
         type: "input",
         name: "title",
-        message: "Post Title?",
+        message: "Post Title: ",
       },
       {
         type: "input",
         name: "description",
-        message: "Post Short Description?",
+        message: "Post Short Description: ",
       },
       {
         type: "input",
