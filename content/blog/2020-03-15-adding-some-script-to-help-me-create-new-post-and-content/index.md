@@ -1,19 +1,18 @@
 ---
-title: Adding some script to help me create new post and content
-description:
+title: Added a node script to generate post template
+description: I simply run `npm run new` to create a new post
 date: "2020-03-15"
 ---
 
 Simply:
 
-```
+```bash
 npm run new
 ```
 
 And some JS magic:
 
-```
-
+```js
 const fs = require("fs");
 const inquirer = require("inquirer");
 
@@ -143,6 +142,4 @@ function slugify(str) {
 
   return str;
 }
-
-
 ```
