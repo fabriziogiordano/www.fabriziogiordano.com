@@ -1,5 +1,5 @@
-const fs = require("fs");
-const inquirer = require("inquirer");
+import fs from "fs";
+import inquirer from "inquirer";
 
 (async () => {
   try {
