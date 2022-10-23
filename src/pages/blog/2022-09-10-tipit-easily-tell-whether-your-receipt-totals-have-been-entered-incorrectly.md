@@ -11,7 +11,7 @@ With TipiT, reconciling restaurant and bar charges can be done easily. You only 
 
 ## Palindrome to the resque
 
-<img alt="TipiT" src="/images/tipit.cut.gif" style="max-width:180px; float: right"/>
+<img alt="TipiT" src="/images/tipit.cut.gif" style="max-width:180px; float: right; margin-left: 10px"/>
 
 A palindrome is a word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.
 So say the number 8778 is a palidrime you can read it forward and backward.
