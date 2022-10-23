@@ -10,8 +10,8 @@ I used to reconcile my credit card statements at the end of the month, making su
 With TipiT, reconciling restaurant and bar charges can be done easily. You only have to investigate suspicious looking charges, which should rarely occur.
 
 ## Palindrome to the resque
+
 ![TipiT](/images/tipit.cut.gif)
-![This is a placeholder image description](/placeholder-social.jpg)
 
 A palindrome is a word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.
 So say the number 8778 is a palidrime you can read it forward and backward.

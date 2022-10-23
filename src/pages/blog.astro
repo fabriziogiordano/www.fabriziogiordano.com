@@ -21,11 +21,15 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 			}
 			ul li {
 				display: flex;
+				flex-direction: column;
+				margin-bottom: 30px;
 			}
 			ul li time {
-				flex: 0 0 130px;
 				font-style: italic;
 				color: #595959;
+			}
+			ul li p {
+				margin: 5px 0;
 			}
 			ul li a:visited {
 				color: #8e32dc;
