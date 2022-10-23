@@ -1,0 +1,71 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import {
+  SITE_TITLE,
+  SITE_DESCRIPTION,
+  SITE_SPREADSHEET_URL,
+} from "../../config";
+
+import { parse } from "csv-parse";
+
+import { unified } from "unified";
+import remarkParse from "remark-parse";
+import remarkRehype from "remark-rehype";
+import rehypeStringify from "rehype-stringify";
+
+export async function getStaticPaths() {
+  // Use remark for Astro
+  const remark = await unified()
+    .use(remarkParse)
+    .use(remarkRehype, { allowDangerousHtml: true })
+    .use(rehypeStringify, { allowDangerousHtml: true });
+
+  // Parse data from a google doc spreadsheet
+  const csvUrl = SITE_SPREADSHEET_URL;
+
+  const data = await fetch(csvUrl, { redirect: "follow" });
+  const text = await data.text();
+  const dataObj = await parse(text.trim(), {
+    columns: (header) => header.map((column) => column.toLowerCase()),
+  });
+
+  let pathData = [];
+  for await (const record of dataObj) {
+    pathData.push({
+      params: {
+        article: record.slug,
+      },
+      props: {
+        title: record.title,
+        text: await remark.process(record.text),
+      },
+    });
+  }
+
+  return pathData;
+}
+
+const params = Astro.params;
+const props = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section>
+        <a href="/articles/1">Articles</a>
+        <h1>{props.title}</h1>
+        <div>{params.article}!</div>
+        <div>{props.text}</div>
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>

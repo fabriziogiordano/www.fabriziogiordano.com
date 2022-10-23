@@ -1,0 +1,66 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import {
+  SITE_TITLE,
+  SITE_DESCRIPTION,
+  SITE_SPREADSHEET_URL,
+} from "../../config";
+
+import { parse } from "csv-parse";
+
+export async function getStaticPaths({ paginate }) {
+  // Parse data from a google doc spreadsheet
+  const csvUrl = SITE_SPREADSHEET_URL;
+  const data = await fetch(csvUrl, { redirect: "follow" });
+  const text = await data.text();
+  const dataObj = await parse(text.trim(), {
+    columns: (header) => header.map((column) => column.toLowerCase()),
+  });
+
+  let pathData = [];
+  for await (const record of dataObj) {
+    pathData.push({
+      article: record.slug,
+      title: record.title,
+    });
+  }
+
+  // Generate pages from our array of astronauts, with 2 to a page
+  return paginate(pathData, { pageSize: 1 });
+}
+// All paginated data is passed on the "page" prop
+const { page } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+    <main>
+      <section>
+        <h1>Page {page.currentPage} / {page.total}</h1>
+        <ul>
+          <!--List the array of astronaut info-->
+          {
+            page.data.map(({ article, title }) => (
+              <li>
+                <a href={`/articles/${article}`}>
+                  {article} ー {title}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+
+        {page.url.prev ? <a href={page.url.prev}>Previous</a> : null}
+        {page.url.next ? <a href={page.url.next}>Next</a> : null}
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>

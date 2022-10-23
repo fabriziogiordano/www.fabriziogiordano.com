@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = 'Fabrizio Giordano Blog';
 export const SITE_DESCRIPTION = 'Welcome to my blog!';
+export const SITE_SPREADSHEET_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQfVHcbiNW3vLpZJ0hDsIXpI0HpBFyLeYDd6B3qIAqGtaQxuVh-I3C7xGLOeNmoj9S27HVhb2IIxlFr/pub?gid=0&single=true&output=csv";
