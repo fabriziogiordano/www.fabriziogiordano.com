@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/Article.astro"
 title: Luhn10 algorithm
 description: Luhn10 algorithm
 pubDate: "May 18 2011"

@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/Article.astro"
 title: Prototype webapp using distraction free font
 description: Prototype webapp using distraction free font
 excerpt: Prototype webapp using distraction free font

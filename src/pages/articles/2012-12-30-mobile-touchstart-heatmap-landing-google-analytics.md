@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/Article.astro"
 title: Mobile heatmap landing page with Google Analytics
 description: Mobile heatmap landing page using google Analytics
 excerpt: Mobile landing page heatmap

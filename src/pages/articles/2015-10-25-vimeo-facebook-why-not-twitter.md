@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/Article.astro"
 title: Vimeo & Facebook then why not Twitter
 description: Vimeo & Facebook then why not Twitter
 excerpt: Vimeo + Twitter = Vimter

@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/Article.astro"
 title: Flipboard implementation of the mobile web in canvas - 60FPS but 15,000 Speed Index and 22Mb size
 description: Flipboard implementation of the mobile web in canvas - 60FPS but 15,000 Speed Index and 22Mb size
 pubDate: "Jan 15 2015"

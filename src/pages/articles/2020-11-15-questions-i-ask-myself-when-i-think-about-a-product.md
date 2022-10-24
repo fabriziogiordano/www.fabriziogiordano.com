@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/Article.astro"
 title: Questions I ask myself when I think about a product
 description: When I evaluate a feature, a product, an initiative or a business I go over a list of questions to gain clarity
 pubDate: "Nov 15 2020"

@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/Article.astro"
 title: Seven Languages in Seven Weeks (part 1)
 description: Seven Languages in Seven Weeks (part 1)
 pubDate: "Jun 10 2013"

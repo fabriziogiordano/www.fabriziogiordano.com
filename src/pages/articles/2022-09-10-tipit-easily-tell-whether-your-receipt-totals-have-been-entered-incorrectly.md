@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/Article.astro"
 title: TipiT - palindromic tip calculator 
 description: Easily tell whether your receipt totals have been entered incorrectly!
 pubDate: "Oct 09 2022"

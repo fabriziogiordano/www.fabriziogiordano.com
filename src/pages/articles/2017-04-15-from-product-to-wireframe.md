@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/BlogPost.astro"
+layout: "../../layouts/Article.astro"
 title: From Product to Wireframe
 description: From Product to Wireframe
 pubDate: "Apr 15 2017"
