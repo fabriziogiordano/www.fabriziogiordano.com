@@ -1,4 +1,6 @@
-// https://astro.build/config
+// import path from "path";
+// import { fileURLToPath } from "url";
+// const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 import { defineConfig } from "astro/config";
 import mdx from "@astrojs/mdx";
@@ -22,11 +24,11 @@ export default defineConfig({
   },
 
   vite: {
-    resolve: {
-      alias: {
-        "~": path.resolve(__dirname, "./src")
-      }
-    },
+    // resolve: {
+    //   alias: {
+    //     "~": path.resolve(__dirname, "./src")
+    //   }
+    // },
     server: {
       watch: {
         ignored: ["/dist/**", "/node_modules/**", "/.astro/**", "astro.log"]
