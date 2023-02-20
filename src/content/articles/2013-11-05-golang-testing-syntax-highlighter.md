@@ -1,6 +1,7 @@
 ---
-layout: "../../layouts/Article.astro"
+layout: "../../layouts/Layout.astro"
 title: Golang find smallest number in array
+slug: golang-find-smallest-number-in-array
 description: Golang find smallest number in array
 excerpt: Golang find smallest number in array testing syntax highlighter
 pubDate: "Nov 05 2013"

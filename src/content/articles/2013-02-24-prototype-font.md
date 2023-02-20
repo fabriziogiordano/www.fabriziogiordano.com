@@ -1,6 +1,7 @@
 ---
-layout: "../../layouts/Article.astro"
+layout: "../../layouts/Layout.astro"
 title: Prototype webapp using distraction free font
+slug: prototype-webapp-using-distraction-free-font
 description: Prototype webapp using distraction free font
 excerpt: Prototype webapp using distraction free font
 pubDate: "Feb 24 2013"

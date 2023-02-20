@@ -1,6 +1,7 @@
 ---
-layout: "../../layouts/Article.astro"
+layout: "../../layouts/Layout.astro"
 title: Raspberry Pi - Track temperature and humidiy on Google Drive
+slug: raspberry-pi-track-temperature-and-humidiy-on-google-drive
 description: Raspberry Pi - Track temperature and humidiy on Google Drive
 excerpt: How to assemble some C, Go, Javascript to create Chart of my livinroom temperature over time.
 pubDate: "Dec 21 2013"

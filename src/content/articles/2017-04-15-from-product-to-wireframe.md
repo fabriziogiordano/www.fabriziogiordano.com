@@ -1,6 +1,7 @@
 ---
-layout: "../../layouts/Article.astro"
+layout: "../../layouts/Layout.astro"
 title: From Product to Wireframe
+slug: from-product-to-wireframe
 description: From Product to Wireframe
 pubDate: "Apr 15 2017"
 excerpt: From Product to Wireframe

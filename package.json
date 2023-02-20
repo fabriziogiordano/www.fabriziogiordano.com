@@ -4,7 +4,7 @@
 	"version": "0.0.3",
 	"scripts": {
 		"dev": "astro dev",
-		"start": "astro dev",
+		"start": "rm astro.log; astro dev | tee astro.log",
 		"build": "astro build --silent",
 		"preview": "astro preview",
 		"astro": "astro"

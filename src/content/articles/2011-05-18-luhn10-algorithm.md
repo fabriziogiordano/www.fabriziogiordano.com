@@ -1,6 +1,7 @@
 ---
-layout: "../../layouts/Article.astro"
+layout: "../../layouts/Layout.astro"
 title: Luhn10 algorithm
+slug: luhn10-algorithm
 description: Luhn10 algorithm
 pubDate: "May 18 2011"
 ---

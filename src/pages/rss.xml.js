@@ -6,7 +6,7 @@ export async function get(context) {
     description: 'A humble Astronaut’s guide to the stars',
     site: context.site,
     items: await pagesGlobToRssItems(
-      import.meta.glob('./blog/*.{md,mdx}'),
+      import.meta.glob('./pages/content/articles/*.{md,mdx}'),
     ),
   });
 }

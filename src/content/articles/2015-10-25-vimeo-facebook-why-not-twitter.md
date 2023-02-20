@@ -1,6 +1,7 @@
 ---
-layout: "../../layouts/Article.astro"
+layout: "../../layouts/Layout.astro"
 title: Vimeo & Facebook then why not Twitter
+slug: vimeo-facebook-then-why-not-twitter
 description: Vimeo & Facebook then why not Twitter
 excerpt: Vimeo + Twitter = Vimter
 pubDate: "Oct 25 2015"

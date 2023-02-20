@@ -1,6 +1,7 @@
 ---
-layout: "../../layouts/Article.astro"
+layout: "../../layouts/Layout.astro"
 title: Questions I ask myself when I think about a product
+slug: questions-i-ask-myself-when-i-think-about-a-product
 description: When I evaluate a feature, a product, an initiative or a business I go over a list of questions to gain clarity
 pubDate: "Nov 15 2020"
 ---

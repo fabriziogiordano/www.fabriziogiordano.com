@@ -5,12 +5,13 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 import { defineConfig } from 'astro/config';
 import sitemap from "@astrojs/sitemap";
 import compress from "astro-compress";
+import mdx from '@astrojs/mdx'
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://www.fabriziogiordano.com",
   base: "/",
-  trailingSlash: "never",
+  trailingSlash: "ignore",
   output: "static",
   outDir: "./dist",
 
@@ -46,6 +47,7 @@ export default defineConfig({
   },
 
   integrations: [
+    mdx(),
     sitemap(),
     compress({
       outDir: "./dist",

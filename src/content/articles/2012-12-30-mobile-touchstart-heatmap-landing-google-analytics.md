@@ -1,6 +1,7 @@
 ---
-layout: "../../layouts/Article.astro"
+layout: "../../layouts/Layout.astro"
 title: Mobile heatmap landing page with Google Analytics
+slug: mobile-heatmap-landing-page-with-google-analytics
 description: Mobile heatmap landing page using google Analytics
 excerpt: Mobile landing page heatmap
 pubDate: "Dec 30 2012"

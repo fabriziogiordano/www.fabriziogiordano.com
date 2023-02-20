@@ -27,6 +27,16 @@ strong,
 b {
   color: #fff;
 }
+
+h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h2 a:hover {
+  color: #bad5ff;
+}
+
 a {
   color: #bad5ff;
 }
@@ -66,4 +76,15 @@ blockquote {
   padding: 2px 0px 2px 20px;
   margin: 0px;
   font-style: italic;
+}
+
+.title {
+  font-size: 1.6em;
+  margin: 0.25em 0 0;
+  line-height: 1.1em;
+  letter-spacing: -0.02em;
+}
+hr {
+  border-top: 1px solid #ddd;
+  margin: 1rem 0;
 }
