@@ -7,9 +7,8 @@ import sitemap from "@astrojs/sitemap";
 import compress from "astro-compress";
 import mdx from '@astrojs/mdx'
 
-// https://astro.build/config
 export default defineConfig({
-  site: "https://www.fabriziogiordano.com",
+  site: "https://fabriziogiordano.com",
   base: "/",
   trailingSlash: "ignore",
   output: "static",
