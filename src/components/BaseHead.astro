@@ -19,8 +19,8 @@ const { title, description, image = "/placeholder-social.jpg" } = Astro.props;
 <link rel="icon" type="image/png" href="/images/favicon.png" />
 
 <!-- Primary Meta Tags -->
-<title>{title}</title>
-<meta name="title" content={title} />
+<title>{`Fabrizio Giordano - ${title}`}</title>
+<meta name="title" content={`Fabrizio Giordano - ${title}`} />
 <meta name="description" content={description} />
 
 <!-- Open Graph / Facebook -->
@@ -28,7 +28,7 @@ const { title, description, image = "/placeholder-social.jpg" } = Astro.props;
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image, `${Astro.url}/images/`)} />
+<meta property="og:image" content={`/images/${image}`} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
