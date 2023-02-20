@@ -1,12 +1,12 @@
-// import path from "path";
-// import { fileURLToPath } from "url";
-// const __dirname = path.dirname(fileURLToPath(import.meta.url));
+import path from "path";
+import { fileURLToPath } from "url";
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-import { defineConfig } from "astro/config";
-import mdx from "@astrojs/mdx";
+import { defineConfig } from 'astro/config';
 import sitemap from "@astrojs/sitemap";
 import compress from "astro-compress";
 
+// https://astro.build/config
 export default defineConfig({
   site: "https://www.fabriziogiordano.com",
   base: "/",
@@ -19,21 +19,21 @@ export default defineConfig({
   },
 
   build: {
-    format: "files",
+    format: "file",
     assets: "assets"
   },
 
   vite: {
-    // resolve: {
-    //   alias: {
-    //     "~": path.resolve(__dirname, "./src")
-    //   }
-    // },
+    resolve: {
+      alias: {
+        "~": path.resolve(__dirname, "./src")
+      }
+    },
     server: {
       watch: {
         ignored: ["/dist/**", "/node_modules/**", "/.astro/**", "astro.log"]
       }
-    },    
+    },
     build: {
       rollupOptions: {
         output: {
@@ -46,7 +46,6 @@ export default defineConfig({
   },
 
   integrations: [
-    mdx(),
     sitemap(),
     compress({
       outDir: "./dist",
@@ -55,6 +54,7 @@ export default defineConfig({
       img: false,
       js: true,
       svg: false,
+      logger: 1
     }),
   ],
 });
