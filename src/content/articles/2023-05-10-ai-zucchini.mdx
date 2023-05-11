@@ -1,0 +1,34 @@
+---
+layout: "../../layouts/Layout.astro"
+title: "ai-zucchini"
+slug: ai-zucchinit
+heroImage: ai-zucchini.hero.webp
+description: How I leverage an object detection model to detect new objects, zucchini in this case
+pubDate: "May 05 2023"
+---
+
+import Sources from "../../components/Sources.astro";
+
+I've recently trained an AI model to detect zucchini in my garden. Next, I'm planning to build an AI-powered machine to harvest these zucchinis. If you know of others like me trying to tackle this problem, please DM me.
+
+### Context
+I grew up in a small town in Italy where my parents owned a small piece of land. As a kid school was not my priority. I was more interested in playing outside than studying. Concerned about my future, my parents prepared a Plan B for me — becoming a farmer. They also wanted to instill in me the value of hard work. To this end, they planted a lot of zucchinis. My father constructed a zucchini planter, which consisted of a funnel atop a hollow stick. To plant, you simply place the stick in the ground and then drop the zucchini seed into the funnel. This method eliminates the need to bend down to the ground. My first lesson was about creativity and finding efficient solutions.
+
+Zucchini grow relatively quickly, starting to yield produce in about two months. If adequately watered, they produce a significant amount of zucchini over a few weeks. My parents and I would go into harvest mode for about four weeks, where each day, a plant would produce a zucchini. A zucchini can only be sold if it's the right size - not too small and not too large. The challenge is that zucchinis grow quickly. Today's small zucchini is tomorrow's perfectly sized zucchini, but if not harvested promptly, it becomes too large. Oversized zucchinis pose two problems: they are hard to sell, and they reduce the plant's productivity, as the plant focuses on a single zucchini instead of growing others. Therefore, it's crucial to harvest zucchinis every single day, preferably early in the morning. This is not only to avoid the midday heat but also to ensure that the harvest is ready for early morning deliveries.
+
+So there I was, each dawn, harvesting zucchinis. It was demanding work. The plants have small needles that can cut you, especially when your skin is unaccustomed and damp from the morning dew. Zucchinis are also delicate and cannot be carelessly tossed around. I despised it, but it taught me a valuable lesson about hard work.
+
+### AI Zucchini detection model
+Since then, I've always contemplated ways to optimize the zucchini harvesting process. Inspired by my father's innovative zucchini planter, I aimed to create a simple harvesting machine. However, as I mentioned, zucchinis are delicate and need careful handling over weeks of harvest.
+
+A few years ago, I began envisioning a robot capable of gently cutting the base of the zucchini and storing it delicately. But a crucial piece was missing: I needed to position the machine's arm correctly. 
+
+This is where AI comes into play. Image detection has become relatively straightforward nowadays. I've experimented with multiple models recently, with the most enjoyable one being [detectron2](https://detectron2.readthedocs.io/en/latest/). Detectron2 is developed by Meta. They trained this model using thousands of images spanning a wide variety of objects. However, "surprisingly," they didn't train it for zucchini detection.
+
+The advantage of these AI models is their broad training across a wide range of objects, understanding shapes, colors, geometry, and other object characteristics. All that's required to add a new object to their detection range is to provide them with some images of that object. There's no need to build a model from scratch.
+
+So, I found a series of zucchini images online and used [Labelme](https://github.com/wkentaro/labelme) to label them, preparing the AI to detect zucchinis. I labeled approximately 50 images, not a massive dataset, but enough to get started. Then, I hopped on Google Colab and initiated the training. Within a couple of hours, I had a working prototype of a zucchini-detecting AI.
+
+I will go deeper in future posts, for now here's the code I used 2 years ago that I am planning to update:
+https://github.com/fabriziogiordano/zucchini
+
