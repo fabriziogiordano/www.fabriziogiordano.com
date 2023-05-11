@@ -39,7 +39,7 @@ const { title, description, image = "/placeholder-social.jpg" } = Astro.props;
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZWRPD5ZF0H"></script>
-<script>
+<script is:inline>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());

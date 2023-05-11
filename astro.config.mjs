@@ -8,7 +8,7 @@ import compress from "astro-compress";
 import mdx from '@astrojs/mdx'
 
 export default defineConfig({
-  site: "https://www.fabriziogiordano.com",
+  site: "https://fabriziogiordano.com",
   base: "/",
   trailingSlash: "ignore",
   output: "static",
