@@ -7,7 +7,13 @@ import HeaderHeadline from "../components/HeaderHeadline.astro";
 import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../config";
 
-const articles = await getCollection("articles", ({ data }) => data.pubDate < new Date() && data.draft !== true);
+const articles = await getCollection("articles", ({ data }) => {
+  if (import.meta.env.DEV) {
+    return true;
+  }
+  return data.pubDate < new Date() && data.draft !== true;
+});
+
 articles.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
 ---
 
