@@ -25,7 +25,7 @@ In conclusion, the question should not be about choosing quantitative data over 
 
 ### Reflect on the following
 
-1. What are the key differences between quantitative and qualitative data as outlined in the essay?
+1. What are the key differences between quantitative and qualitative data in your day to day?
 2. How does the use of quantitative data contribute to product growth strategies?
 3. In what ways does qualitative data provide deeper insights into customer behavior and attitudes?
 4. Why is the combination of both quantitative and qualitative data essential in formulating an effective product growth strategy?
