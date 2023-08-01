@@ -2,9 +2,10 @@
 layout: "../../layouts/Layout.astro"
 title: Flipboard implementation of the mobile web in canvas - 60FPS but 15,000 Speed Index and 22Mb size
 slug: flipboard-implementation-of-the-mobile-web-in-canvas-60fps-but-15000-speed-index-and-22mb-size
+heroImage: ""
 description: Flipboard implementation of the mobile web in canvas - 60FPS but 15,000 Speed Index and 22Mb size
-pubDate: "Jan 15 2015"
 excerpt: 60 FPS but 22Mb of site.
+pubDate: 2015-01-15 12:00:00
 ---
 
 [Flipboard](http://engineering.flipboard.com/2015/02/mobile-web/) relased today a new web site and in particular a new the mobile web experience.

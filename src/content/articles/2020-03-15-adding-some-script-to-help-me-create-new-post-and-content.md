@@ -3,7 +3,8 @@ layout: "../../layouts/Layout.astro"
 title: Added a node script to generate post template
 slug: added-a-node-script-to-generate-post-template
 description: I simply run `npm run new` to create a new post
-pubDate: "Mar 15 2020"
+heroImage: ""
+pubDate: 2020-03-15 12:00:00
 ---
 
 Simply:

@@ -2,8 +2,9 @@
 layout: "../../layouts/Layout.astro"
 title: Luhn10 algorithm
 slug: luhn10-algorithm
+heroImage: ""
 description: Luhn10 algorithm
-pubDate: "May 18 2011"
+pubDate: 2011-05-18 12:00:00
 ---
 
 I just discovered today an intersting Gist from [Thomas Fuchs](https://gist.github.com/madrobby "Thomas Fuchs").

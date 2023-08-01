@@ -3,8 +3,9 @@ layout: "../../layouts/Layout.astro"
 title: Seven Languages in Seven Weeks (part 1)
 slug: seven-languages-in-seven-weeks-part-1
 description: Seven Languages in Seven Weeks (part 1)
-pubDate: "Jun 10 2013"
+heroImage: ""
 excerpt: Seven Languages in Seven Weeks
+pubDate: 2013-06-10 12:00:00
 ---
 
 ![Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages by Bruce A. Tate](/images/7lanin7weeks2.jpg "Seven Languages in Seven Weeks: A Pragmatic Guide to Learning Programming Languages by Bruce A. Tate")

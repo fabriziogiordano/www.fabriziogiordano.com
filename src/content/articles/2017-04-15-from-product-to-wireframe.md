@@ -3,8 +3,9 @@ layout: "../../layouts/Layout.astro"
 title: From Product to Wireframe
 slug: from-product-to-wireframe
 description: From Product to Wireframe
-pubDate: "Apr 15 2017"
+heroImage: ""
 excerpt: From Product to Wireframe
+pubDate: 2017-04-15 12:00:00
 ---
 
 ![Storyboards](/Storyboard.png)

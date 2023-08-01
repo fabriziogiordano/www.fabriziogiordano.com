@@ -2,9 +2,10 @@
 layout: "../../layouts/Layout.astro"
 title: Vimeo & Facebook then why not Twitter
 slug: vimeo-facebook-then-why-not-twitter
+heroImage: ""
 description: Vimeo & Facebook then why not Twitter
 excerpt: Vimeo + Twitter = Vimter
-pubDate: "Oct 25 2015"
+pubDate: 2015-10-25 12:00:00
 ---
 
 I was recently reading an interesting [post](http://thenextweb.com/facebook/2015/10/23/why-facebook-should-buy-vimeo-if-it-wants-to-take-on-youtube/) from [Napier Lopes](http://thenextweb.com/author/napierlopez/) about the possibility of Facebook and Vimeo to join forces.

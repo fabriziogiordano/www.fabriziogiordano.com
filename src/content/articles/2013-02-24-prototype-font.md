@@ -3,8 +3,9 @@ layout: "../../layouts/Layout.astro"
 title: Prototype webapp using distraction free font
 slug: prototype-webapp-using-distraction-free-font
 description: Prototype webapp using distraction free font
+heroImage: ""
 excerpt: Prototype webapp using distraction free font
-pubDate: "Feb 24 2013"
+pubDate: 2013-02-24 12:00:00
 ---
 
 Today I had an idea and I immediately play with a prototype.

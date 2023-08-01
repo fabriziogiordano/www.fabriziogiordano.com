@@ -2,9 +2,10 @@
 layout: "../../layouts/Layout.astro"
 title: Raspberry Pi - Track temperature and humidiy on Google Drive
 slug: raspberry-pi-track-temperature-and-humidiy-on-google-drive
+heroImage: ""
 description: Raspberry Pi - Track temperature and humidiy on Google Drive
 excerpt: How to assemble some C, Go, Javascript to create Chart of my livinroom temperature over time.
-pubDate: "Dec 21 2013"
+pubDate: 2013-12-21 12:00:00
 ---
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/spreadsheets/d/11uwCKTokoJ9P2kJ1UUlZnj60GaNf3H41D9t61GlfnhY/gviz/tq?id=11uwCKTokoJ9P2kJ1UUlZnj60GaNf3H41D9t61GlfnhY&transpose=0&headers=0&merge=COLS&range=A1%3AA4856%2CF1%3AF4856&gid=0&pub=1","options":{"hAxis":{"title":"Time","useFormatFromData":true,"viewWindow":null,"minValue":null,"maxValue":null,"viewWindowMode":null},"title":"Temperature in Fahrenheit","titleTextStyle":{"fontSize":16,"color":"#000","bold":true},"vAxes":[{"title":"Temperature","useFormatFromData":false,"viewWindow":{"max":null,"min":null},"minValue":null,"maxValue":null,"gridlines":{"count":"10"},"formatOptions":{"source":"inline","suffix":"\u00b0"},"format":"0.##"},{"useFormatFromData":true,"viewWindow":{"max":null,"min":null},"minValue":null,"maxValue":null}],"curveType":"function","animation":{"duration":500},"booleanRole":"certainty","lineWidth":2,"legend":"right","series":{"0":{"color":"#6aa84f","lineWidth":4}},"width":600,"height":371},"state":{},"view":{},"isDefaultVisualization":false,"chartType":"LineChart","chartName":"Chart 4"} </script>
