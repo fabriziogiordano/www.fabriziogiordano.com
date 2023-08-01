@@ -4,7 +4,7 @@ title: "Why Churn is the Silent Killer of Product Growth"
 slug: why-churn-is-the-silent-killer-of-product-growth
 heroImage: why-churn-is-the-silent-killer-of-product-growth.png
 description: "Addressing churn through quantitative and qualitative insights ensures customer retention for sustained product growth and business success."
-pubDate: 2023-09-19 12:00:00
+pubDate: 2023-08-24 12:00:00
 ---
 
 ### Introduction

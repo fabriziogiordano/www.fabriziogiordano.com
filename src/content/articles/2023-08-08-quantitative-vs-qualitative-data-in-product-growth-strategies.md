@@ -4,7 +4,7 @@ title: "Quantitative vs. Qualitative Data in Product Growth Strategies"
 slug: quantitative-vs-qualitative-data-in-product-growth-strategies
 heroImage: quantitative-vs-qualitative-data-in-product-growth-strategies.png
 description: "A take on how combining quantitative and qualitative data optimizes product growth strategies for customer-focused business success."
-pubDate: 2023-08-15 12:00:00
+pubDate: 2023-08-08 12:00:00
 ---
 
 Data-driven decision-making has taken center stage in contemporary business strategy development. While data types vary, quantitative and qualitative data are the two primary forms businesses use in forming product growth strategies. Each data type provides unique insights into market trends, consumer behavior, and potential growth avenues.

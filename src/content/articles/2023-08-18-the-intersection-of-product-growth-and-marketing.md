@@ -4,7 +4,7 @@ title: "The Intersection of Product Growth and Marketings"
 slug: the-intersection-of-product-growth-and-marketing
 heroImage: the-intersection-of-product-growth-and-marketing.png
 description: "Optimal business success is achieved through user-focused strategies driven by data, underscoring the synergy between product growth and marketing."
-pubDate: 2023-09-05 12:00:00
+pubDate: 2023-08-18 12:00:00
 ---
 
 ### Introduction: Defining Product Growth and Marketing
