@@ -15,7 +15,6 @@ I used to reconcile my credit card statements at the end of the month. I was mak
 
 With [TipiT](https://tipit.web.app), reconciling restaurant and bar charges can be done easily. You only have to investigate suspicious looking charges, which should rarely occur.
 
-
 A palindrome is a word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run.
 
 So say the number 8778 is a palidrime you can read it forward and backward.
@@ -27,6 +26,3 @@ Example: Suppose your bill is $10.00 and you leave a 20% tip. Your total would b
 With [TipiT](https://tipit.web.app) you will get a list of recommended tips where all total to a palindrome total.
 
 <a href="https://tipit.web.app"><img alt="TipiT" src="/images/tipit_example.png" style="max-width:360px;"/></a>
-
-
-
