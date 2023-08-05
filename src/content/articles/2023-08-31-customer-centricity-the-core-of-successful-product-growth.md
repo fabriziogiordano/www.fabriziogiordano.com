@@ -4,7 +4,7 @@ title: "Customer-Centricity: The Core of Successful Product Growth"
 slug: customer-centricity-the-core-of-successful-product-growth
 heroImage: customer-centricity-the-core-of-successful-product-growth.png
 description: "Utilizing CRM and predictive analytics, businesses blend quantitative and qualitative customer insights, fueling customer-centric product growth strategies."
-pubDate: 2023-08-31 12:00:00
+pubDate: 2023-08-31 01:00:00
 ---
 
 ### Introduction

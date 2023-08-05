@@ -5,7 +5,7 @@ slug: mobile-heatmap-landing-page-with-google-analytics
 heroImage: ""
 description: Mobile heatmap landing page using google Analytics
 excerpt: Mobile landing page heatmap
-pubDate: 2012-12-30 12:00:00
+pubDate: 2012-12-30 01:00:00
 ---
 
 Few days ago I have been working on some new mobile landing pages.

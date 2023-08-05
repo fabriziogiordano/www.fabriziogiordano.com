@@ -4,7 +4,7 @@ title: "Decoding the Product Growth Strategy"
 slug: decoding-the-product-growth-strategy
 heroImage: decoding-the-product-growth-strategy.png
 description: "Optimizing product growth strategies with quantitative, qualitative data ensures customer-focused business success through diversification and market expansion."
-pubDate: 2023-08-01 12:00:00
+pubDate: 2023-08-01 01:00:00
 ---
 
 ### Introduction: Laying the Foundation

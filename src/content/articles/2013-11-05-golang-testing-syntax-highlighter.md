@@ -5,7 +5,7 @@ slug: golang-find-smallest-number-in-array
 heroImage: ""
 description: Golang find smallest number in array
 excerpt: Golang find smallest number in array testing syntax highlighter
-pubDate: 2013-11-05 12:00:00
+pubDate: 2013-11-05 01:00:00
 ---
 
 ```

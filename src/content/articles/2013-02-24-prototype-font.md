@@ -5,7 +5,7 @@ slug: prototype-webapp-using-distraction-free-font
 description: Prototype webapp using distraction free font
 heroImage: ""
 excerpt: Prototype webapp using distraction free font
-pubDate: 2013-02-24 12:00:00
+pubDate: 2013-02-24 01:00:00
 ---
 
 Today I had an idea and I immediately play with a prototype.

@@ -5,7 +5,7 @@ slug: flipboard-implementation-of-the-mobile-web-in-canvas-60fps-but-15000-speed
 heroImage: ""
 description: Flipboard implementation of the mobile web in canvas - 60FPS but 15,000 Speed Index and 22Mb size
 excerpt: 60 FPS but 22Mb of site.
-pubDate: 2015-01-15 12:00:00
+pubDate: 2015-01-15 01:00:00
 ---
 
 [Flipboard](http://engineering.flipboard.com/2015/02/mobile-web/) relased today a new web site and in particular a new the mobile web experience.

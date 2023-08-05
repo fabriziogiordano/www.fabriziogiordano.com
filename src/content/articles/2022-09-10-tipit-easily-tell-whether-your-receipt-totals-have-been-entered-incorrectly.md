@@ -4,7 +4,7 @@ title: TipiT - palindromic tip calculator
 slug: tipit-palindromic-tip-calculator 
 heroImage: ""
 description: Easily tell whether your receipt totals have been entered incorrectly!
-pubDate: 2022-10-09 12:00:00
+pubDate: 2022-10-09 01:00:00
 ---
 
 I used to reconcile my credit card statements at the end of the month. I was making sure charges were valid and that restaurant and bar charges weren't padded with extra unauthorized tips. I've caught instances of my receipts not matching. It can be for honest mistakes when entering the total amount at the end of the shift or pure disonesty. I like to think all surcharges were simply mistakes.
