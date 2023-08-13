@@ -1,3 +1,7 @@
+# Prompt GPT
+
+![Alt text](images/image.png)
+
 Write a short version of this article I can use as linkedin post.
 
 ```
