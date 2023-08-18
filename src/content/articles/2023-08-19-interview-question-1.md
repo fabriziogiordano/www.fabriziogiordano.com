@@ -1,9 +1,9 @@
 ---
 layout: "../../layouts/Layout.astro"
-title: "Interview Questions: VP of Product Analytics hiring a Senior Director of Product Analytics"
-slug: interview-question-vp-of-product-analytics-hiring-a-senior-director-of-product-analytics
-heroImage: interview-question-vp-of-product-analytics-hiring-a-senior-director-of-product-analytics.png
-description: "What question should a VP of Product Analytics ask when hiring a senior leader?"
+title: "Interview Questions: Head of Product hiring Product Managers"
+slug: interview-questions-head-of-product-hiring-product-managers
+heroImage: interview-questions-head-of-product-hiring-product-managers.png
+description: "What question should an Head of Product ask when hiring Product Managers?"
 pubDate: 2023-08-19 01:00:00
 draft: true
 ---
