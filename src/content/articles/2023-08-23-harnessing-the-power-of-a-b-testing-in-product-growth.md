@@ -4,7 +4,7 @@ title: "Harnessing the Power of A/B Testing in Product Growth"
 slug: harnessing-the-power-of-a-b-testing-in-product-growth
 heroImage: harnessing-the-power-of-a-b-testing-in-product-growth.png
 description: "Leveraging A/B testing empowers data-driven decision-making for customer-focused business growth by optimizing product strategies and user engagement."
-pubDate: 2023-08-22 01:00:00
+pubDate: 2023-08-23 01:00:00
 ---
 
 ### Introduction: Understanding A/B Testing
