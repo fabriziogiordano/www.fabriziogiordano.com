@@ -21,33 +21,6 @@ articles.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pub
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <style>
-      h3 {
-        margin: 0;
-        font-size: 1.5em;
-        line-height: 1.1em;
-        letter-spacing: -0.02em;
-      }
-      a {
-        text-decoration: none;
-      }
-      ul {
-        list-style-type: none;
-        padding: unset;
-      }
-      ul li {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 30px;
-      }
-      ul li time {
-        font-style: italic;
-        color: rgb(198, 198, 198);
-      }
-      ul li p {
-        margin: 5px 0;
-      }
-    </style>
   </head>
   <body>
     <Header />
@@ -70,13 +43,29 @@ articles.sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pub
                     day: "numeric",
                   })}
                 </time>
-                <p>{data.description || null}</p>
+                
+                <p class="clamp">
+                  { data.heroImage && <a href={`/${slug}`}><img class="thumb" width="160" height="90" loading="lazy" src=`/images/${data.heroImage}` /></a> }
+                  { data.description || null }
+                </p>
               </li>
             ))
           }
         </ul>
       </section>
     </main>
+
     <Footer />
+
+    <script>
+      document.addEventListener(
+        "error",
+        (event) => {
+          if (event.target.tagName.toLowerCase() !== "img") return;
+          event.target.src = "/images/product-growth-with-ai-the-unstoppable-impact.png";
+        },
+        true,
+      );
+    </script>
   </body>
 </html>

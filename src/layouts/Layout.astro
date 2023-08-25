@@ -59,5 +59,16 @@ const {
       </article>
     </main>
     <Footer />
+
+    <script>
+      document.addEventListener(
+        "error",
+        (event) => {
+          if (event.target.tagName.toLowerCase() !== "img") return;
+          event.target.src = "/images/product-growth-with-ai-the-unstoppable-impact.png";
+        },
+        true,
+      );
+    </script>
   </body>
 </html>
